@@ -28,12 +28,29 @@
   }
   
   .btn {
-    background-color: #000000;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000;
     padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
+    border: 2px solid #000;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* On mouse click (active state) */
+.btn:active {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.profile-picture {
+  width: 200px; /* Increase this value for a bigger circle */
+  height: 200px; /* Same value as width for a perfect circle */
+  object-fit: cover; /* Maintains the image's aspect ratio */
+  border-radius: 50%; /* Ensures it's a circle */
+ /* Optional: adds a black border around the circle */
+}
+
 /* Mobile Responsive Design */
 
 @media only screen and (max-width: 768px) {

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link for routing
 import './Navbar.css';
-import logo from '../../assets/Content.png'; // Ensure logo path is correct
+import logo from '../../assets/Content.png';
+import p1 from '../../assets/p1.jpg'; // Ensure logo path is correct // Ensure logo path is correct
 
 const Navbar = () => {
   return (
@@ -17,7 +18,9 @@ const Navbar = () => {
           <li><Link to="/contact">Contact Us</Link></li>
           <li><Link to="/buy" className="btn">Buy</Link></li>
           <li><Link to="/sell" className="btn">Sell</Link></li>
-          <li><Link to="/profile" className="btn"><i className="fas fa-user-circle"></i></Link></li>
+          <li>  
+          
+          <img src={p1} alt="P1" className="profile-picture" /> </li>
         </ul>
       </nav>
     </header>
