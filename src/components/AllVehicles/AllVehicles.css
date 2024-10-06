@@ -51,18 +51,18 @@
   }
 
   .card-container {
-    display: flex; /* Use flexbox to arrange cards in a row */
-    flex-wrap: wrap; /* Allow cards to wrap to the next line */
-    justify-content: space-between; /* Even spacing between cards */
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
     
   }
   
   .card {
-    width: 20%; /* Control card width (adjust as needed) */
-    margin-bottom: 20px; /* Spacing between rows */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden; /* Hide image overflow for rounded corners */
+    width: 300px; 
+    margin-bottom: 20px;  
+    border: 2px solid #000000;
+    border-radius: 0px;
+    overflow: hidden; 
     margin-left: 30px;
     margin-right: 30px;
   }
@@ -70,15 +70,53 @@
   .vehi {
     width: 50px;  
     height: 100px;  
-    object-fit: cover; /* Maintain aspect ratio while resizing */
+    object-fit: cover; 
   }
   
   .card-info {
-    padding: 10px;
+    padding: 0px;
   }
+  
   .card img{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 60px;
+  }
+  
+  .auction-status {
+    font-size: 12px;
+   
+    border-radius: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+  
+  }
+  
+  .auction-status.live {
+    background-color: green;
+    color: white;
+    width: 300px;  
+    display: block;  
+    padding: 7px 0px; 
+    text-align: center;  
+  }
+  
+  .auction-status.timed {
+    background-color: orange;
+    color: white;
+    width: 300px; 
+    display: block;  
+    padding: 7px 0px; 
+    text-align: center;
+  }
+  
+  .bid-type {
+    font-size: 14px;
+    color: #666;
+    
   }
   /* Small mobile devices (max-width: 480px) */
 @media only screen and (max-width: 480px) {

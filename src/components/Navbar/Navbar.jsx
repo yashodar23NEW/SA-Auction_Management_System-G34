@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link for routing
+import { Link } from 'react-router-dom';  
 import './Navbar.css';
 import logo from '../../assets/Content.png';
-import p1 from '../../assets/p1.jpg'; // Ensure logo path is correct // Ensure logo path is correct
+import p1 from '../../assets/p1.jpg';  
 
 const Navbar = () => {
   return (

@@ -36,19 +36,18 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
-/* On mouse click (active state) */
+ 
 .btn:active {
     background-color: #000;
     color: #fff;
     border: 2px solid #fff;
 }
 .profile-picture {
-  width: 200px; /* Increase this value for a bigger circle */
-  height: 200px; /* Same value as width for a perfect circle */
-  object-fit: cover; /* Maintains the image's aspect ratio */
-  border-radius: 50%; /* Ensures it's a circle */
- /* Optional: adds a black border around the circle */
+  width: 200px;  
+  height: 200px;  
+  object-fit: cover;  
+  border-radius: 50%;  
+ 
 }
 
 /* Mobile Responsive Design */

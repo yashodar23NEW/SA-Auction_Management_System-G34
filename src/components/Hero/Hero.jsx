@@ -3,6 +3,10 @@ import './Hero.css';
 import bg from '../../assets/bg.png';
 import bg2 from '../../assets/bg2.png';
 import Logos from '../../assets/logos.png';
+import car1 from '../../assets/car1.png'; 
+import v2 from '../../assets/v2.png'; 
+import v3 from '../../assets/v3.png'; 
+import v5 from '../../assets/v5.png'; 
 
 const Hero = () => {
   return (
@@ -25,47 +29,17 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <div className="card-container">
-        <div className="card">
-          <img src="path/to/car-image.jpg" alt="Car" />
-          <div className="card-info">
-            <span className="auction-status live">Live Auction</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Highest Bid)</span>
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <img src="path/to/motorcycle-image.jpg" alt="Motorcycle" />
-          <div className="card-info">
-            <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Minimum Bid)</span>
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <img src="path/to/van-image.jpg" alt="Van" />
-          <div className="card-info">
-            <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Minimum Bid)</span>
-            </p>
-          </div>
-        </div>
+      <div className="container">
+      <div className="auction-info">
+        <span className="most-viewed">MOST VIEWED</span>
+        <h2 className="title">Featured Auctions</h2>
+        <p>Top Vehicles at Unbeatable Starting Bids - Place Your Bid Now and Drive Away with a Deal!</p>
       </div>
-      <div className="card-container">
+      <a href="#" className="view-all-button">View all</a>
+    </div>
+    <div className="card-container">
         <div className="card">
-          <img src="path/to/car-image.jpg" alt="Car" />
+        <img src={car1} alt="car1" className="vehi" />
           <div className="card-info">
             <span className="auction-status live">Live Auction</span>
             <h3>Product Name</h3>
@@ -77,32 +51,7 @@ const Hero = () => {
         </div>
 
         <div className="card">
-          <img src="path/to/motorcycle-image.jpg" alt="Motorcycle" />
-          <div className="card-info">
-            <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Minimum Bid)</span>
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <img src="path/to/van-image.jpg" alt="Van" />
-          <div className="card-info">
-            <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Minimum Bid)</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="card-container">
-        <div className="card">
-          <img src="path/to/car-image.jpg" alt="Car" />
+        <img src={v2} alt="v2" className="vehi" />
           <div className="card-info">
             <span className="auction-status live">Live Auction</span>
             <h3>Product Name</h3>
@@ -113,8 +62,9 @@ const Hero = () => {
           </div>
         </div>
 
+
         <div className="card">
-          <img src="path/to/motorcycle-image.jpg" alt="Motorcycle" />
+        <img src={v3} alt="v3" className="vehi" />
           <div className="card-info">
             <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
             <h3>Product Name</h3>
@@ -126,7 +76,7 @@ const Hero = () => {
         </div>
 
         <div className="card">
-          <img src="path/to/van-image.jpg" alt="Van" />
+        <img src={v5} alt="v5" className="vehi" />
           <div className="card-info">
             <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
             <h3>Product Name</h3>
@@ -136,44 +86,6 @@ const Hero = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="card-container">
-        <div className="card">
-          <img src="path/to/car-image.jpg" alt="Car" />
-          <div className="card-info">
-            <span className="auction-status live">Live Auction</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Highest Bid)</span>
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <img src="path/to/motorcycle-image.jpg" alt="Motorcycle" />
-          <div className="card-info">
-            <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Minimum Bid)</span>
-            </p>
-          </div>
-        </div>
-
-        <div className="card">
-          <img src="path/to/van-image.jpg" alt="Van" />
-          <div className="card-info">
-            <span className="auction-status timed">2D: 12H: 34Min: 52Sec</span>
-            <h3>Product Name</h3>
-            <p>Variant</p>
-            <p>
-              $55 <span className="bid-type">(Minimum Bid)</span>
-            </p>
-          </div>
-        </div>
-        
       </div>
       <div className="bg3">
         <img src={bg2} alt="bg2" className="image2" />
