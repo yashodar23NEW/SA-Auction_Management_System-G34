@@ -1,6 +1,6 @@
 .Hero img{
    height: 450px;
-   width: 1500px;
+   width: fixed;
  }
 
  .Hero h1{
@@ -88,12 +88,17 @@
 .overlay p{
    color: white;
 } 
- 
- 
+.logos {
+  width: 1000px !important;
+  height: 100px !important;
+  display: block;
+}
+
 .card-container {
   display: flex;  
   flex-wrap: wrap;  
-  justify-content: space-between;  
+  justify-content:flex-end;  
+  width: fixed;
   
 }
 
@@ -174,6 +179,36 @@
   font-weight: bold;
   color: #666;
 }
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:active {
+  background-color: #000;
+  color: #575757;
+  border: 2px solid #fff;
+}
+.btn2 {
+  background-color: #666666;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn2:active {
+  background-color: #000;
+  color: #575757;
+  border: 2px solid #fff;
+}
 
 .title {
   font-size: 24px;
@@ -198,4 +233,37 @@
 }
 .view-all-button:hover {
   background-color: #ccc;
+}
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.countdown-item {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.countdown-number {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.countdown-label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.rd h1{
+   align-items: left;
+}
+.hcustm img {
+  width: 50px;  
+  height: 50px;  
+  object-fit: cover;  
+  border-radius: 50%; 
+  margin-left: 49%;
+ 
 }
