@@ -8,7 +8,6 @@ import v2 from '../../assets/v2.png';
 import v3 from '../../assets/v3.png'; 
 import v5 from '../../assets/v5.png'; 
 import { Link } from 'react-router-dom';  
-import p1 from '../../assets/p1.jpg'; 
 
 const Hero = () => {
   return (
@@ -123,31 +122,14 @@ Quality and Reliability in Every Auction.
           </p><br />
  
         </div>
-      </div><br /><br /> <br /><br /><br />
+      </div>
 
-      <div className="creview">  
+      <div className="creview">
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi 
           quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."</p>
-          <br />
-       <p>Name Surname</p><br />
-
-       <p>Position, Company name</p>
+          
       </div>
       
-      <br /><br /><br />
-      <div className="bg2">
-        <img src={bg2} alt="bg2" className="image" />
-        <div className="overlay">
-          <h2>Ready to Start Bidding?</h2>
-          <p>
-          Create an Account and Join the Excitement—Your Next Vehicle is Just a Bid Away!
-          </p><br />
-          <div className="signbuttn">
-            <button type="submit" class="sbtn">Sign In</button> 
-            <button type="submit" class="sbtn">Sign up</button>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
