@@ -1,0 +1,59 @@
+.para{
+    font-family: Verdana;
+    margin-left: 30px;
+}
+.vehicle-inputs {
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 70%;
+    font-family: Verdana;
+
+  }
+
+  .vehicle-inputs input {
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .image-container {
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .form-container {
+    width: 500px; 
+    margin-right: 90px;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 70%;
+    font-family: Verdana;
+/* Adjust the width as needed */
+  }
+  .form-container input {
+   
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  .button{
+    background-color:#9df3b8;
+    color: #011f12;
+  }

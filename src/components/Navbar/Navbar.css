@@ -80,6 +80,37 @@
     padding: 8px 16px;
   }
 }
+/* Navbar.css */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+}
+
+.dropdown-menu li {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 @media only screen and (max-width: 480px) {
   .header {
